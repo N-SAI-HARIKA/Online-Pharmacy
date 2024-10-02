@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Pharmacy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+  <div id="home">
+    <header>
+      <div id="logo">
+         <img src="https://img.freepik.com/premium-vector/pharmacy-medical-logo-design-concept-vector-art-illustration_761413-40262.jpg?w=740" alt="Logo" id="logoimg" width="50px" hight="50px">
+      </div>
+      <input type="checkbox" id="menu-toggle" aria-label="Toggle navigation">
+      <label for="menu-toggle" class="menu-icon">
+          <i class="fas fa-bars"></i> Menu
+      </label>
+      <nav id="navbar">
+          <ul>
+            <li><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#about"><i class="fas fa-info-circle"></i>About</a></li>
+            <li><a href="#services"><i class="fas fa-pills"></i>Services</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i>Contact Us</a></li>
+          </ul>
+        </nav>
+        <div id="login">
+          <input type="button" value="Sign in" id="signin">
+          <input type="button" value="Sign Up" id="signup">
+        </div>
+      </header>
+      <main>
+        <section id="hero">
+          <h1>Your Health, Our Priority</h1>
+          <p>We provide top-quality medications and healthcare services at your convenience.</p>
+          <div id="search-bar">
+            <input type="text" placeholder="Search for medicines or health products..." id="search-input">
+            <button type="submit" id="search-btn"><i class="fas fa-search"></i> Search</button>
+          </div>
+          <a href="#products" class="btn">Shop Now</a>
+        </section>
+      </div>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>At our pharmacy, we are dedicated to providing high-quality healthcare products and services to our customers. Our focus is on offering a wide range of prescription medications, over-the-counter products, and personalized health advice to ensure the well-being of everyone we serve.</p>
+      
+        <h3>Our Mission</h3>
+        <p>We are committed to delivering safe, affordable, and reliable healthcare solutions. With a focus on customer care and satisfaction, we strive to make healthcare more accessible and convenient for all.</p>
+      
+        <h3>Why Choose Us?</h3>
+        <ul>
+          <li><strong>Expert Pharmacists:</strong> Our team is always ready to assist with personalized advice and consultations.</li>
+          <li><strong>Wide Product Range:</strong> We offer a variety of medications, supplements, and healthcare products.</li>
+          <li><strong>Convenient Service:</strong> From quick order processing to reliable home delivery, your health is our priority.</li>
+        </ul>
+      </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-list">
+          <div class="service-item">
+            <i class="fas fa-prescription-bottle-alt"></i>
+            <h3>Prescription Refills</h3>
+            <p>Quick and easy refills for all your medications.</p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>Home Delivery</h3>
+            <p>Get your medicines delivered right to your doorstep.</p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-user-md"></i>
+            <h3>Consult a Pharmacist</h3>
+            <p>Professional advice for all your health queries.</p>
+          </div>
+        </div>
+      </section>  
+    </main>
+    <footer>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required><br/>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br/>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br/>
+          <button type="submit">Send</button>
+        </form>
+      </section> 
+      <p>&copy; 2024 My Pharmacy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
